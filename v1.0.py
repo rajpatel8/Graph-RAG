@@ -8,7 +8,7 @@ class ClassicalAI:
     """Classical AI using Hugging Face API"""
     def __init__(self, knowledge_base: List[Dict]):
         self.knowledge = knowledge_base
-        self.api_token = os.getenv("HUGGINGFACE_API_TOKEN")  # Set your API token as environment variable
+        self.api_token = os.getenv("HUGGINGFACE_API_TOKEN")  # Set  API token as environment variable
         self.api_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-v0.1"
         
     def query(self, query: str) -> str:
@@ -251,7 +251,7 @@ def main():
         print(f"Cancer research knowledge graph visualization saved to: {graph_file}")
         
         print("\nDemo Instructions:")
-        print("1. Open 'cancer_research_graph.html' in your web browser to see the interactive visualization")
+        print("1. Open 'cancer_research_graph.html' in  web browser to see the interactive visualization")
         print("2. Node colors represent different types:")
         print("   - Green: Drug")
         print("   - Pink: Protein")

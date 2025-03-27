@@ -161,7 +161,7 @@ if __name__ == "__main__":
     print(f"Knowledge graph visualization saved to: {graph_file}")
     
     print("\nDemo Instructions:")
-    print("1. Open 'knowledge_graph.html' in your web browser to see the interactive visualization")
+    print("1. Open 'knowledge_graph.html' in web browser to see the interactive visualization")
     print("2. Node colors represent different types:")
     print("   - Green: Technology")
     print("   - Pink: Framework")

@@ -194,10 +194,10 @@ class GraphRAG:
 def main():
     if not os.getenv("HUGGINGFACE_API_TOKEN"):
         print("Error: Please set the HUGGINGFACE_API_TOKEN environment variable")
-        print("\nYou can get your token from: https://huggingface.co/settings/tokens")
+        print("\nYou can get  token from: https://huggingface.co/settings/tokens")
         print("\nThen set it using:")
-        print("export HUGGINGFACE_API_TOKEN='your_token_here'  # For Unix/Linux/Mac")
-        print("set HUGGINGFACE_API_TOKEN=your_token_here  # For Windows")
+        print("export HUGGINGFACE_API_TOKEN='_token_here'  # For Unix/Linux/Mac")
+        print("set HUGGINGFACE_API_TOKEN=_token_here  # For Windows")
         return
     
     # Sample knowledge base for cancer research
@@ -277,7 +277,7 @@ def main():
         print(f"Cancer research knowledge graph visualization saved to: {graph_file}")
         
         print("\nDemo Instructions:")
-        print("1. Open 'cancer_research_graph.html' in your web browser to see the interactive visualization")
+        print("1. Open 'cancer_research_graph.html' in  web browser to see the interactive visualization")
         print("2. Node colors represent different types:")
         print("   - Green: Drug")
         print("   - Pink: Protein")
