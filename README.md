@@ -40,7 +40,7 @@ GraphRAG combines traditional LLM capabilities with structured knowledge represe
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/graphrag.git
+git clone https://github.com/rajpatel8/graphrag.git
 cd graphrag
 
 # Install required packages
