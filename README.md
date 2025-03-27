@@ -40,7 +40,7 @@ GraphRAG combines traditional LLM capabilities with structured knowledge represe
 
 ```bash
 # Clone the repository
-git clone [https://github.com/rajpatel8/graphrag.git](https://github.com/rajpatel8/Graph-RAG)
+git clone https://github.com/rajpatel8/Graph-RAG
 cd graphrag
 
 # Install required packages
@@ -132,7 +132,7 @@ If you use this code in your research, please cite:
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{[[https://github.com/rajpatel8/graphrag.git](https://github.com/rajpatel8/Graph-RAG)}}
+  howpublished = {\url{https://github.com/rajpatel8/Graph-RAG}}
 }
 ```
 
