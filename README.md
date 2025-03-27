@@ -126,7 +126,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 If you use this code in your research, please cite:
 ```
-@misc{graphrag2024,
+@misc{graphrag2025,
   author = {Murarisetty, C. and Parmar, D. and Patel, P. and Shrivastava, P. and Patel, R. and Patel, V.},
   title = {GraphRAG: Enhanced LLM Accuracy through Knowledge Graphs},
   year = {2024},
