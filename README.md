@@ -41,7 +41,7 @@ GraphRAG combines traditional LLM capabilities with structured knowledge represe
 ```bash
 # Clone the repository
 git clone https://github.com/rajpatel8/Graph-RAG
-cd graphrag
+cd Graph-RAG
 
 # Install required packages
 pip install networkx pyvis requests openai
