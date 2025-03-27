@@ -5,14 +5,12 @@ import requests
 from typing import Dict, List, Tuple
 
 class ClassicalAI:
-    """Classical AI using Hugging Face API"""
     def __init__(self, knowledge_base: List[Dict]):
         self.knowledge = knowledge_base
-        self.api_token = os.getenv("HUGGINGFACE_API_TOKEN")  # Set  API token as environment variable
+        self.api_token = os.getenv("HUGGINGFACE_API_TOKEN") 
         self.api_url = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-v0.1"
         
     def query(self, query: str) -> str:
-        """Use Hugging Face API for generating responses"""
         try:
             # Create context from knowledge base
             context = "Based on the following medical information:\n"
